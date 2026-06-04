@@ -9,6 +9,7 @@ export async function middleware(request: NextRequest) {
         pathname.startsWith('/themes') ||
         pathname.startsWith('/api/auth') ||
         pathname.startsWith('/api/folder/') ||
+        pathname.startsWith('/api/download') ||
         pathname === '/login' ||
         pathname === '/login-folder' ||
         pathname === '/favicon.ico' ||
